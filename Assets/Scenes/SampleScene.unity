@@ -544,6 +544,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 67669841146291893, guid: 49f2f316788fbc84e80412f7d277d899, type: 3}
   m_PrefabInstance: {fileID: 5600474010169431291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &603529123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603529124}
+  m_Layer: 0
+  m_Name: '-------------------------------------- '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &603529124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603529123}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3745346, y: -0.7071581, z: 11.692403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646185244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5738,7 +5769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1633741681}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Level
   m_Icon: {fileID: 0}
@@ -5895,6 +5926,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645107053}
   m_CullTransparentMesh: 1
+--- !u!1 &1773406376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1773406377}
+  m_Layer: 0
+  m_Name: '-------------------------------------- '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1773406377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1773406376}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3745346, y: -0.7071581, z: 11.692403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2083990954
 GameObject:
   m_ObjectHideFlags: 0
@@ -5906,7 +5968,7 @@ GameObject:
   - component: {fileID: 2083990955}
   - component: {fileID: 2083990956}
   - component: {fileID: 2083990957}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square
   m_TagString: Level
   m_Icon: {fileID: 0}
@@ -6248,8 +6310,17 @@ PrefabInstance:
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"PlayerSpeed","value":{"x":5.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"JumpForce","value":{"x":0.0,"y":150.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IsGrounded","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 2315662558179915097, guid: 49f2f316788fbc84e80412f7d277d899, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315662558179915097, guid: 49f2f316788fbc84e80412f7d277d899, type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 500895007}
     - target: {fileID: 4424444580721175044, guid: 49f2f316788fbc84e80412f7d277d899, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6271,7 +6342,9 @@ SceneRoots:
   - {fileID: 1390097526}
   - {fileID: 646185245}
   - {fileID: 1479822595}
-  - {fileID: 927006193}
+  - {fileID: 1773406377}
   - {fileID: 462385623}
+  - {fileID: 603529124}
+  - {fileID: 927006193}
   - {fileID: 81960381}
   - {fileID: 1008668256}
